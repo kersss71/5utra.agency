@@ -1,0 +1,47 @@
+.header {
+  display: grid;
+  padding: 4rem;
+  color: white;
+  font-weight: normal;
+  font-style: normal;
+  font-family: "Kudryashev", sans-serif;
+}
+
+.title {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: normal;
+  letter-spacing: 0.3rem;
+}
+
+.contacts {
+  text-align: right;
+  letter-spacing: 0.2rem;
+}
+
+.contacts p {
+  margin: 0.5rem 0;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 3rem;
+  }
+
+  .contacts {
+    text-align: center;
+  }
+
+  .title {
+    margin-bottom: 20px;
+  }
+}

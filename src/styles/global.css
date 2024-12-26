@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: "Kudryashev", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Kudryashev", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
