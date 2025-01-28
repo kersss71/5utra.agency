@@ -7,8 +7,9 @@ export const Header = () => {
       <div className={styles.contacts}>
         <p>Контакты для связи с нами:</p>
         <p>
+          Тел:
           <a className={styles.link} href="tel:+79267888962">
-            Тел: +7 926 788-89-62
+             +7 926 788-89-62
           </a>
         </p>
         <p>
